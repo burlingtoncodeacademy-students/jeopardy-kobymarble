@@ -3,25 +3,33 @@ h1 {
   display: block;
   text-align: center;
 }
-
+/* centering the h4 */
+h4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center
+}
+/* centering the image of trebek */
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+/* centering button on index.html  */
 button{
   display:block;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
-
+/* centering the question in the grid on final jeopardy */
 #question {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+/* styling for the elements in the grids for jeopardy round 1 and round 2 */
 .item {
   background-color: blue;
   color: white;
@@ -30,6 +38,7 @@ button{
   font-size: 120%;
   border: 2px solid white;
 }
+/* styling for the grid for jeopardy round 1 and round 2 */
 .wrapper {
   width: 200px;
   display: grid;
@@ -41,35 +50,42 @@ button{
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
 }
+/* put the buttons on board 1 and 2 in a flex */
 .flex {
   display: flex;
   justify-content: center;
 }
+/* pass button */
 #pass {
   margin-top: 20px;
   margin-left: 20px;
   padding: 20px;
 }
+/* guess button on board 1 and 2 */
 #guess {
   margin-top: 20px;
   margin-right: 20px;
   padding: 20px;
 }
 
+/* player 2s score */
 #player2 {
   float: right;
   margin-right: 625px;
   margin-bottom: 20px;
 }
+/* player 1s score */
 #player1 {
   margin-top: 20px;
   margin-left: 625px;
 }
+/* link between boards */
 footer {
   margin-top: 100px;
   float: right;
 }
 
+/* grid for final jeopardy */
 .finalgrid {
   width: 600px;
   display: grid;
@@ -81,6 +97,7 @@ footer {
   grid-template-columns: 1fr;
   grid-template-rows: 2, 1fr;
 }
+/* styling for items within the final jeopardy grid */
 #finalitems {
   background-color: lightblue;
   color: black;
@@ -92,6 +109,7 @@ footer {
   margin-left: auto;
   margin-right: auto
 }
+/* the question inside the grid of the final jeopardy board  */
 #question {
   background-color: blue;
   color: white;
@@ -101,6 +119,7 @@ footer {
   border: 2px solid white;
   height: 300px;
 }
+/* bet button on the final jeopard board */
 #bet{
   justify-content: center;
   display: block;

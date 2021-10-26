@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jeopardy</title>
+  <link rel="stylesheet" href="jeopardy.css">
+  </link>
 </head>
+<!-- header and where the timers live -->
 <body>
-  <h1>Round One</h1>
+  <h1>Jeoporady</h1>
+  <h4 id="playerTurn">Player 1 its your turn</h4>
+  <div id="roundtimer">00:00</div>
+  <div id="guesstimer">00:00</div>
+  
+  <!-- where the categories are in the top row of the grid -->
+  <div class="wrapper">
+  <div class="item">Category</div>
+    <div class="item">Category</div>
+    <div class="item">Category</div>
+    <div class="item">Category</div>
+    <div class="item">Category</div>
+    <div class="item">Category</div>
+    <!-- all of the questions inside of the grid -->
+    <div class="question" id="question-1">100</div>
+    <div class="question" id="question-1b">100</div>
+    <div class="question" id=question-1c>100</div>
+    <div class="question" id= "question-1d">100</div>
+    <div class="question" id= "question-1e">100</div>
+    <div class="question" id= "question-1f">100</div>
+    <div class="question" id= "question2a">200</div>
+    <div class="question" id= "question-2b">200</div>
+    <div class="question" id= "question-2c">200</div>
+    <div class="question" id= "question-2d">200</div>
+    <div class="question" id= "question-2e">200</div>
+    <div class="question" id= "question-2f">200</div>
+    <div class="question" id= "question-3a">300</div>
+    <div class="question" id= "question-3b">300</div>
+    <div class="question" id= "question-3c">300</div>
+    <div class="question" id= "question-3d">300</div>
+    <div class="question" id= "question-3e">300</div>
+    <div class="question" id= "question-3f">300</div>
+    <div class="question" id= "question-4a">400</div>
+    <div class="question" id= "question-4b">400</div>
+    <div class="question" id= "question-4c">400</div>
+    <div class="question" id= "question-4d">400</div>
+    <div class="question" id= "question-4e">400</div>
+    <div class="question" id= "question-4f">400</div>
+    <div class="question" id= "question-5a">500</div>
+    <div class="question" id= "question-5b">500</div>
+    <div class="question" id= "question-5c">500</div>
+    <div class="question" id= "question-5d">500</div>
+    <div class="question" id= "question-5e">500</div>
+    <div class="question" id= "question-5f">500</div>
+  </div>
+<!-- the pass and guess button, given ids to make easily targetable -->
+  <div class="flex">
+    <button id="guess">Guess</button>
+    <button id="pass">Pass</button>
+    </div>
+<!-- player 1 and 2's score card -->
+  <div id="player1">player one</div>
+  <div id="player2">player two</div>
+  </div>
+  <input id="player guess" type= "text">
+  
+
+
+  <footer>
+    <p><a href="/jeopardy-kobymarble/round-2.html">round 2!</a></p>
+  </footer>
+
+
+
+
+<script src="jeopardy.js"></script>
 </body>
+
 </html>

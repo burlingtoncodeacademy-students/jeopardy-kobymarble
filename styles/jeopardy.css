@@ -36,7 +36,15 @@ button {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  animation-name: butt;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
+@keyframes butt {
+  from {background-color: tomato}
+  to {background-color: rgb(255, 0, 212);}
+}
+
 button:hover{
   background-color: #3e8e41;
 }
